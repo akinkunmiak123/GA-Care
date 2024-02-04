@@ -5,7 +5,8 @@
 }
 
 .back{
-     background-color: #B53F9F;
+     background-color: rgb(18, 18, 18);
+     
 }
 
 .heading{
@@ -23,7 +24,10 @@
    color: #FAAF18;
     margin-bottom: 25px;
     position: relative;
-    font-weight: bolder;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    padding-top: 15px;
 }
 
 .heading h2{
@@ -31,7 +35,9 @@
     color: #FAAF18;
     opacity: .7;
     margin-bottom: 35px;
-    font-weight: bolder;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 7px;
 
 }
 .heading h1::after{
@@ -50,13 +56,7 @@
   width: 100%;
 }
 
-.heading p{
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 35px;
 
-
-}
 
 .container{
     width: 90%;
@@ -96,7 +96,9 @@
     font-size: 23px;
     margin-bottom: 15px;
     color: #FAAF18;
-    font-weight: bold;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
 }
 
 .about_content p{
@@ -104,19 +106,22 @@
    line-height: 1.5;
    color: #FAAF18;
    opacity: .8;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 
 
 .banner {
   width: 100%;
-  height: 20vh;
+  height: 12vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
 }
 
 .navbar {
   width: 100%;
-  margin: auto;
-  padding: 35px 0;
+  margin-top: auto;
+  padding: 3px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,6 +131,7 @@
   margin-left: 50px;
   width: 100px;
   cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .navbar ul li {
@@ -140,7 +146,6 @@
   color: #fff;
   text-transform: uppercase;
   font-weight: bolder;
-  font-family: myFont;
 }
 
 .navbar ul li::after {

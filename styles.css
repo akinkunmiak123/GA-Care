@@ -3,10 +3,7 @@
   padding: 0;
   font-family: sans-serif;
 }
-@font-face{
-  font-family: myFont;
-  src: url(./images/futura/Futura\ Heavy\ font.ttf);
-}
+
 
 .banner {
   width: 100%;
@@ -75,12 +72,17 @@
 .content h1 {
   font-size: 70px;
   margin-top: 80px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .content p {
   margin: 20px auto;
   font-weight: 100;
   line-height: 25px;
+   font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 button {
@@ -100,6 +102,18 @@ button {
 
 .buttonStyle {
   background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.largebtn {
+  background: #131312;
   height: 100%;
   width: 0;
   border-radius: 25px;
@@ -207,7 +221,7 @@ footer {
 
 .section {
   text-align: center;
-  background-color: #B53F9F;
+  background-color: rgb(18, 18, 18);
 
 }
 
@@ -215,6 +229,9 @@ footer {
   font-size: 70px;
   padding-top: 80px;
   color: #FAAF18;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
 }
 
 .card-container {
@@ -245,12 +262,18 @@ footer {
 .card-content h3 {
   font-size: 28px;
   margin-bottom: 8px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
 .card-content p {
   color: #666;
   font-size: 15px;
   line-height: 1.3;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 
 .sidebar{
@@ -307,7 +330,7 @@ footer {
   color: #009688;
   text-transform: uppercase;
   font-weight: bolder;
-  font-family: myFont;
+  font-family: sans-serif;
 }
 
 }
