@@ -7,7 +7,7 @@
 
 .contact{
     min-height: 100vh;
-    background-color: #809faa;
+    background-color: #b53f9f;
     padding: 50px;
     text-align: center;
 }
@@ -18,7 +18,8 @@
 .container h2{
     font-size: 36px;
     margin-bottom: 40px;
-    color: #333;
+    color: #faaf18;
+    font-weight: bolder;
 }
 .contact_wrapper{
     display: grid;
@@ -31,7 +32,7 @@
 .contact_form h3{
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: #faaf18;
 }
 .form_group{
     margin-bottom: 20px;
@@ -66,11 +67,12 @@ button:hover{
 .contact_info h3{
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: #faaf18;
 }
 .contact_info p{
     margin-bottom: 10px;
-    color: #555;
+    color: #faaf18;
+    opacity: .9;
 }
 .contact_info i{
     color: #4caf50;
@@ -93,8 +95,8 @@ button:hover{
 }
 
 .logo {
-  margin-left: 30px;
-  width: 70px;
+  margin-left: 50px;
+  width: 100px;
   cursor: pointer;
 }
 
@@ -109,6 +111,8 @@ button:hover{
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
+  font-weight: bolder;
+  font-family: myFont;
 }
 
 .navbar ul li::after {
