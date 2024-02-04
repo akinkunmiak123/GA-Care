@@ -109,6 +109,7 @@
 }
 
 .logo {
+  margin-left: 30px;
   width: 70px;
   cursor: pointer;
 }
