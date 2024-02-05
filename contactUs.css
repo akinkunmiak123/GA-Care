@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  box-sizing: border-box;
 }
 
 .contact{
+  padding-top: 15px;
     min-height: 100vh;
     background-color: rgb(18, 18, 18);
     padding: 50px;
@@ -26,7 +26,7 @@
 .contact_wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 30px;
+    grid-gap: 100px;
 }
 .contact_form{
     text-align: left;
@@ -89,10 +89,11 @@ button:hover{
     font-weight: 400;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    padding-right: 20px;
 }
 .contact_info i{
     color: #4caf50;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .banner {
@@ -102,14 +103,17 @@ button:hover{
 }
 
 .navbar {
+  background-color: #2e2d2d;
+  height: 15px;
   width: 100%;
-  margin-top: auto;
-  padding: 3px 0;
+  margin: auto;
+  padding: 35px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 999;
 }
-
 .logo {
   margin-left: 50px;
   width: 100px;
@@ -150,17 +154,19 @@ button:hover{
 
 
 
+
 footer {
   background-color: #111;
 }
 
 .footerContainer {
-  width: 90%;
-  padding: 70px 30px 20px;
+   width: 100%;
+  height: 25vh;
 }
 
 .socialIcon {
   display: flex;
+  padding-top: 30px;
   justify-content: center;
 }
 
@@ -191,6 +197,7 @@ footer {
 
 .footerNav {
   margin: 30px 0;
+  margin-bottom: 70px;
 }
 
 .footerNav ul {
@@ -233,7 +240,20 @@ footer {
 
 
 
+
 @media (max-width: 800px) {
+.footerNav {
+  margin: 15px 0;
+}
+  .socialIcon {
+  display: flex;
+  justify-content: center;
+}
+  .footerContainer {
+  width: 90%;
+  height: 33vh;
+  padding: 70px 30px 20px;
+}
   .footerNav ul {
     flex-direction: column;
   }
@@ -245,7 +265,8 @@ footer {
   
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
     .container{
         padding: 20px;
     }

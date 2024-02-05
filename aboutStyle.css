@@ -6,11 +6,11 @@
 
 .back{
      background-color: rgb(18, 18, 18);
-     
+     padding-top:  15px;
 }
 
 .heading{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,12 +119,16 @@
 }
 
 .navbar {
+  background-color: #2e2d2d;
+  height: 15px;
   width: 100%;
-  margin-top: auto;
-  padding: 3px 0;
+  margin: auto;
+  padding: 35px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 999;
 }
 
 .logo {
@@ -171,12 +175,13 @@ footer {
 }
 
 .footerContainer {
-  width: 90%;
-  padding: 70px 30px 20px;
+   width: 100%;
+  height: 25vh;
 }
 
 .socialIcon {
   display: flex;
+  padding-top: 30px;
   justify-content: center;
 }
 
@@ -207,6 +212,7 @@ footer {
 
 .footerNav {
   margin: 30px 0;
+  margin-bottom: 70px;
 }
 
 .footerNav ul {
@@ -250,6 +256,19 @@ footer {
 
 
 @media (max-width: 800px) {
+  
+.footerNav {
+  margin: 15px 0;
+}
+  .socialIcon {
+  display: flex;
+  justify-content: center;
+}
+  .footerContainer {
+  width: 90%;
+  height: 33vh;
+  padding: 70px 30px 20px;
+}
   .footerNav ul {
     flex-direction: column;
   }
@@ -260,6 +279,9 @@ footer {
   }
   .heading{
     padding: 0px 20px;
+  }
+  .heading h1{
+    margin: 20px 10px;
   }
   .heading h1{
     font-size: 36px;

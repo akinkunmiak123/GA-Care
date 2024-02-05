@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
 }
 
 .section {
+  padding-top: 15px;
   background-color: rgb(18, 18, 18);
 }
 
@@ -93,14 +93,17 @@ body {
 }
 
 .navbar {
+  background-color: #2e2d2d;
+  height: 15px;
   width: 100%;
-  margin-top: auto;
-  padding: 3px 0;
+  margin: auto;
+  padding: 35px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 999;
 }
-
 .logo {
   margin-left: 50px;
   width: 100px;
@@ -137,17 +140,19 @@ body {
   width: 100%;
 }
 
+
 footer {
   background-color: #111;
 }
 
 .footerContainer {
-  width: 90%;
-  padding: 70px 30px 20px;
+   width: 100%;
+  height: 25vh;
 }
 
 .socialIcon {
   display: flex;
+  padding-top: 30px;
   justify-content: center;
 }
 
@@ -178,6 +183,7 @@ footer {
 
 .footerNav {
   margin: 30px 0;
+  margin-bottom: 70px;
 }
 
 .footerNav ul {
@@ -216,7 +222,21 @@ footer {
   color: white;
 }
 
+
 @media (max-width: 800px) {
+
+  .footerNav {
+  margin: 15px 0;
+}
+  .socialIcon {
+  display: flex;
+  justify-content: center;
+}
+  .footerContainer {
+  width: 90%;
+  height: 33vh;
+  padding: 70px 30px 20px;
+}
   .footerNav ul {
     flex-direction: column;
   }
@@ -225,7 +245,9 @@ footer {
     text-align: center;
     margin: 10;
   }
+  
 }
+
 
 @media (max-width: 940px) {
   .services {
