@@ -18,6 +18,23 @@
 .coloring{
     background-color: #F6F6F6;
 }
+.positionhead{
+    position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.contact{
+  background-color: #f0f0f0;
+
+}
+.contact p{
+  font-size: large;
+  text-align: center;
+  color: #b53f9f;
+  text-transform: capitalize;
+  line-height: 30px;
+}
 
 .navbar {
   background-color: #2e2d2d;
@@ -28,8 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  z-index: 999;
+
 }
 .logo {
   margin-left: 50px;
@@ -502,8 +518,8 @@ ul{
 }
 
 
-.sidebar{
-  padding-top: 3vh !important;
+.sidebar {
+  padding-top: 20vh !important;
   position: fixed;
   top: 0;
   right: 0;
@@ -511,22 +527,22 @@ ul{
 
   /* check height */
   height: 100vh;
-  width: 250px;
+  width: 100%;
   z-index: 999;
   background: transparent;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
+  text-align: center;
 }
 
-.sidebar li{
+.sidebar li {
   width: 100%;
   margin-bottom: 40px !important;
- 
 }
-.sidebar a{
+.sidebar a {
   width: 100%;
 }
 .listcolor{
@@ -549,13 +565,14 @@ ul{
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .sidebar{
    width: 100%;
   }
-  .logo {
-  margin-left: 0px;
-}
+   .logo {
+    width: 90px;
+    margin-right: 40px;
+  }
 }
 
 
@@ -589,7 +606,9 @@ ul{
 }
 
 @media(max-width: 800px){
-
+  .contact{
+    display: none;
+  }
 
 .about{
     display: block;
