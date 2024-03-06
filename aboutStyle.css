@@ -33,7 +33,7 @@ body{
 
 
 .navbar {
-  background-color: #2e2d2d;
+  background-color: #fcca07;
   height: 15px;
   width: 100%;
   margin: auto;
@@ -61,7 +61,7 @@ body{
 
 .navbar ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #e91e63;
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -432,7 +432,7 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
+	background-color: #fcca07;
     padding: 70px 0;
 }
 .footer-col{
@@ -441,7 +441,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: #e91e63;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -463,10 +463,9 @@ ul{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #e91e63;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -483,7 +482,7 @@ ul{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: #e91e63;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
