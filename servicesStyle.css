@@ -75,7 +75,9 @@ background-color: #F6F6F6;
   width: 100%;
 }
 
-
+.spaces{
+  padding-top: 50px;
+}
 
 .section {
   text-align: center;
