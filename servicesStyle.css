@@ -482,9 +482,10 @@ ul{
   .sidebar{
    width: 100%;
   }
-   .logo {
-    width: 90px;
-    margin-right: 40px;
+  .logo {
+    width: 250px;
+    margin-right: 20px;
+    height: auto;
   }
 }
 

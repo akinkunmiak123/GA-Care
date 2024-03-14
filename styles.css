@@ -65,6 +65,7 @@
   color: #e91e63;
   text-transform: uppercase;
   font-weight: bolder;
+   width: 50px;
 }
 
 .navbar ul li::after {
@@ -603,8 +604,9 @@ ul {
   }
 
   .logo {
-    width: 90px;
-    margin-right: 40px;
+    width: 250px;
+    margin-right: 20px;
+    height: auto;
   }
 }
 
