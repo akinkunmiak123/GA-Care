@@ -45,7 +45,7 @@
 
 }
 .logo {
-  margin-left: 50px;
+  margin-left: 5px;
   width: 300px;
   height: auto;
   cursor: pointer;
@@ -603,9 +603,9 @@ ul {
     width: 100%;
   }
 
-  .logo {
-    width: 250px;
-    margin-right: 20px;
+   .logo {
+    width: 220px;
+    margin-right: 5px;
     height: auto;
   }
 }
